@@ -95,3 +95,42 @@ a:hover{
 	padding-top: 0px;
 	padding-bottom: 0px;
 }
+
+.contact-form{
+	border-top:1px solid black;
+	padding:20px;
+	margin: auto;
+	text-align: center;
+	vertical-align: 50%;
+	background-color: #B19CD9;
+
+}
+
+}
+.contact-form h3,h4{
+	text-align: center;
+}
+
+
+.contact-form input,textarea{
+	padding: 8PX;
+	padding-right: 0PX;
+	padding-bottom: 15px;
+	font-family: times new roman;
+	font-size: 18px;
+	
+}
+form input,textarea[required=required]:after
+{
+	color:blue;
+	content: "*"
+}
+.button{
+	background-color: black;
+	color: #fff;
+	padding: 10px 15px;
+	border:none;
+
+}
+.button:hover{
+	color:red;
