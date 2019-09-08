@@ -122,19 +122,19 @@
 	<div class="contact-form"> <!--contact form begins here-->
 		<h3 >Contact Form</h3>
 		<h4>Send me a message!!</h4>
-		<form action="post" method="post" data-netlify="true" >
-		<div class="form-group">
-			<input type="text" name="Name" id="name" placeholder="Name" minlength="4" required="required">	
+		<form action="index.php" method="post" data-netlify="true" enctype="multipart/form-data" >
+			<div class="form-group">
+				<input type="text" name="name" id="name" placeholder="Name" minlength="4" required="required">	
 		
-			<input type="email" name="Email" id="email" placeholder="Email" required="required">
-		</div>
-		<div class="form-group">
-			<input type="text" name="Title" id="title" placeholder="Title of message" required="required">
-		</div>
-		<div class="form-group">
-			<textarea name="Message" id="message" placeholder="Type your message here" minlength="20" required="required"></textarea>
-		</div>
-		<button type="Submit" class="button" name="Submit">Send Message</button>
+				<input type="email" name="email" id="email" placeholder="Email" required="required">
+			</div>
+			<div class="form-group">
+				<input type="text" name="title" id="title" placeholder="Title of message" required="required">
+			</div>
+			<div class="form-group">
+				<textarea name="message" id="message" placeholder="Type your message here" minlength="20" required="required"></textarea>
+			</div>
+			<button type="Submit" class="button" name="submit">Send Message</button>
 		</form>
 	</div><!--contact form ends here-->
 <script src="main.js"></script>
